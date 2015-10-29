@@ -1,0 +1,255 @@
+body , html{
+	width: 100%;
+	height: 100%;
+}
+
+*{
+	font-family: "Montserrat"
+}
+
+/*boton-volver al navegador*/
+
+.button-up{
+	color: #18bc9e;
+	font-size: 70px;
+	margin: 60%;
+}
+.button-up:hover{
+	color: #2c3e50
+}
+/*Navegador*/
+
+li a:hover{color:#18B9B6;}
+
+ul li:hover{background-color: black;}
+
+nav .container{padding: 1% 6%;}
+
+nav a{font-weight: 700;}
+
+
+.hero-image{
+	background: #18bc9e;
+	color: white;
+	padding:  10%;
+}
+
+/* portfolio */
+#portfolio h2 {
+	font-size: 3em;
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+.blue {
+	width: 200px;
+	border: 3px solid #2c3e50;
+	margin: 30px auto;
+}
+.blue:after {
+	background: #fff;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .portfolio {
+  	width: 100%;
+    height: 218px;
+    font-size: 1em;
+    margin: 10% 0%;
+  }
+  .portfolio i {
+  	margin: 80px 0;
+  	color: transparent;
+  }
+}
+@media (min-width: 480px) and (max-width: 640px) {
+  .portfolio {
+  	width: 100%;
+    height: 310px;
+    font-size: 1em;
+    margin: 10% 0%;
+  }
+  .portfolio i {
+  	margin: 130px 0;
+  	color: transparent;
+  }
+}
+@media (min-width: 640px) and (max-width: 768px) {
+  .portfolio {
+  	width: 100%;
+    height: 430px;
+    font-size: 1.5em;
+    margin: 10% 0%;
+  }
+  .portfolio i {
+  	margin: 180px 0;
+  	color: transparent;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portfolio {
+  	width: 100%;
+    height: 160px;
+    font-size: 0.8em;
+    margin: 10% 0%;
+  }
+  .portfolio i {
+  	margin: 60px 0;
+  	color: transparent;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+	.portfolio {
+		width: 100%;
+		height: 210px;
+	}
+	.portfolio i {
+		color: transparent;
+		margin: 90px auto;
+	}
+}
+@media (min-width: 1280px) {
+	.portfolio {
+		width: 100%;
+		height: 260px;
+		margin: 10% 0%;
+	}
+	.portfolio i {
+		color: transparent;
+		margin: 100px auto;
+	}
+}
+.portfolio:hover, .portfolio:hover i {
+	background: #18bc9c;
+	color: #fff;
+}
+.img-cabin {
+	background: url(../img/portfolio/cabin.png) no-repeat;
+	background-size: 100%;
+}
+.img-cake {
+	background: url(../img/portfolio/cake.png) no-repeat;
+	background-size: 100%;
+}
+.img-circus {
+	background: url(../img/portfolio/circus.png) no-repeat;
+	background-size: 100%;
+}
+.img-game {
+	background: url(../img/portfolio/game.png) no-repeat;
+	background-size: 100%;
+}
+.img-safe {
+	background: url(../img/portfolio/safe.png) no-repeat;
+	background-size: 100%;
+}
+.img-submarine {
+	background: url(../img/portfolio/submarine.png) no-repeat;
+	background-size: 100%;
+}
+.row{
+	padding: 3%
+}
+.hero-image p{
+	font-size: 80px;
+	margin:auto;
+	font-weight: bold;
+}
+.houselines{
+	margin: auto;
+}
+.hero-image .linea{
+	border: 3px solid white;
+	width: 8%;
+	text-align: center;
+	display: inline-block;
+	margin: 0.5% 0%;
+}
+.fa-search {
+	margin: 1%;
+}
+.mt-6{
+	margin-top: 6%;
+}
+#pb-25{
+	padding-top: 25%;
+}
+#portfolio .linea{
+	border: 3px solid #2c3e50;
+	width: 8%;
+	text-align: center;
+	display: inline-block;
+	margin: 0.5% 0%;
+}
+#about .linea{
+	border: 3px solid white;
+	width: 8%;
+	text-align: center;
+	display: inline-block;
+	margin: 0.5% 0%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
+.bg-green{
+	background: #18bc9e;
+	width: 100%;
+	color: white;
+}
+.bg-success{
+	color: white;
+}
+
+form{
+	padding: 15%;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.pie-de-pagina{
+	background: #2F364A;
+	color: white;
+}
+footer p{
+	font-size: 24px;
+	font-weight: bold;
+}
+footer span{
+	font-size: 18px;
+}
+.redes .fa{
+	border: 2px solid white;
+	border-radius: 100%;
+	padding: 4%;
+	font-size: 15px;
+}
+footer a{
+	color: white;
+}
+.name{
+	text-shadow: 4px 5px 5px #000000;
+}
+.redes .fa:hover{
+	background: white;
+	color: #18bc9e;
+	-webkit-transition: background 0.5s ease;
+-moz-transition: background 0.5s ease;
+-ms-transition: background 0.5s ease;
+-o-transition: background 0.5s ease;
+transition: background 0.5s ease;
+}
+.about-page p{
+	font-size: 18px;
+}
+.about-page span{
+	font-size: 26px;
+	font-weight: bold;
+}
+/* ABOUT */
+.blog-page p{
+	color: #18bc9e;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+
+
+
